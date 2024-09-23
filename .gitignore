@@ -144,3 +144,7 @@ cython_debug/
 # Local .env files
 .env.local
 .env.*.local
+
+
+# topic mapping file
+topic_mapping.json

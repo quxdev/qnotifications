@@ -22,6 +22,7 @@ class TestSNSWrapper(unittest.TestCase):
         self.mock_sns = MagicMock()
         self.mock_boto_client.return_value = self.mock_sns
 
+        # Instantiate SNSWrapper with persistence_file
         self.sns_wrapper = SNSWrapper(
             app_prefix=self.app_prefix,
             aws_access_key_id="test_key",

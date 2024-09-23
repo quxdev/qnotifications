@@ -33,10 +33,10 @@ topic_arn = sns.create_topic('my-topic')
 message_id = sns.publish(topic_arn, 'Hello, World!')
 
 # Subscribe to a topic using topic ARN
-subscription_arn = sns.subscribe(topic_arn, 'email', 'user@example.com')
+subscription_arn = sns.subscribe(topic_arn, 'email', 'psathaye@gmail.com')
 
 # Subscribe to a topic using topic name
-subscription_arn = sns.subscribe_by_name('my-topic', 'email', 'user@example.com')
+subscription_arn = sns.subscribe_by_name('my-topic', 'email', 'psathaye@gmail.com')
 
 # List topics
 topics = sns.list_topics()
